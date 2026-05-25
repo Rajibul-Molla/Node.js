@@ -1,0 +1,17 @@
+{
+  "_id": {
+    "$oid": "6a14432eee2dcb311b50c174"
+  },
+  "name": "Rajibul Molla",
+  "email": "rajibulat@gmail.com",
+  "age": 77181149790,
+  "isActive": true,
+  "tags": [
+    "Developer",
+    "Engineer"
+  ],
+  "createdAt": {
+    "$date": "2026-05-25T12:40:14.719Z"
+  },
+  "__v": 0
+}
