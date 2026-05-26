@@ -115,10 +115,39 @@ async function runQueryExample(){
 
         // Count How Many results You are getting 
 
-        const doccount=await User.countDocuments({isActive: false})
-        console.log(doccount)
+        // const doccount=await User.countDocuments({isActive: false})
+        // console.log(doccount)
 
 
+
+
+
+
+
+
+
+
+
+        // Find one user by name and delete
+        // const deletedUser = await User.findOneAndDelete({name: "Ronith Molla"});
+
+        // console.log(deletedUser);
+
+
+
+
+
+        
+        //Update a user
+        // const updateUser = await User.findByIdAndUpdate('6a144ce37bfc362305af902e',
+        //     {
+        //         $set: { age: 100 },
+
+        //         $push: { tags: "updated" },
+        //     },
+        //     { new: true }
+        //  );
+        //  console.log(updateUser);
 
 
     }
